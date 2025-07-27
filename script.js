@@ -6,7 +6,7 @@ const lastClickedHref = localStorage.getItem('lastClickedHref');
 if (lastClickedHref) {
 buttons.forEach(button => { 
 if (button.getAttribute('href') === lastClickedHref) {
-button.ClassList.add('active');
+button.classList.add('active');
 }
 });
 }
