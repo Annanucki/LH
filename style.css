@@ -43,6 +43,7 @@ h1 {
 /* Button styling */
 .button,
 a.button {
+  box-shadow: 0 0 30px #800020;
 text-decoration: none;
   text-align: center;
   width: 200px;
